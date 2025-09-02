@@ -31,6 +31,7 @@ public class TicketMachine
         balance = 0;
         total = 0;
         Prompt();
+        showPrice();
     }
     public void Prompt()
     {
@@ -70,7 +71,10 @@ public class TicketMachine
     {
         return total; 
     }
-    
+    public void showPrice()
+    {
+        System.out.println("The price of a ticket is" + price + "cents");
+    }
     /**
      * Print a ticket.
      * Update the total collected and
