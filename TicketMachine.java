@@ -17,7 +17,9 @@ public class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
-
+    
+    public int status;
+    
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
@@ -29,7 +31,12 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
-
+    
+    public int Status()
+    {
+     return status;
+    }
+    
     /**
      * Return the price of a ticket.
      */
