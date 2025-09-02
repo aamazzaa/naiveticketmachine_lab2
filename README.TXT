@@ -39,3 +39,56 @@ The student class
 public int title;
 public int author;
 pubic int price;
+
+ public Date(String month, int day, int year)
+ 
+ 23. The name of the return field used in the method.
+24.How much money i have inserted
+
+No since balance = Balance it doesnt matter what the method is named.
+
+public void increaseScore(int points)
+{
+    score += points;
+}
+
+increaseScore Method
+
+public void increaseScore(int points)
+{
+    score += points;
+}
+
+Yes, addCredits is a mutator method because it modifies the internal state of the object.
+
+Student student = new Student();
+student.addCredits(10); // Mutates the credits field
+System.out.println(student.getCredits()); // Should print 10 
+
+
+This shows that calling addCredits changes the value stored in the credits field.
+
+Assuming price is a field in the class:
+public void discount(int amount)
+{
+    price -= amount;
+}
+
+
+
+Setter for age Field
+public void setAge(int currentAge)
+{
+    age = currentAge;
+}
+
+
+This sets the value of the age field using the parameter currentAge.
+
+Setter for alive Field
+public void setAlive(boolean status)
+{
+    alive = status;
+}
+
+

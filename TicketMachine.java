@@ -61,7 +61,12 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
-
+    
+    public int getTotal()
+    {
+        return total; 
+    }
+    
     /**
      * Print a ticket.
      * Update the total collected and
