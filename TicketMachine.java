@@ -27,7 +27,7 @@ public class TicketMachine
      */
     public TicketMachine(int price)
     {
-        price = price;
+        price = 1000;
         balance = 0;
         total = 0;
         Prompt();
