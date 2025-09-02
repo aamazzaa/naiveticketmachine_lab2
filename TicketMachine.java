@@ -41,7 +41,11 @@ public class TicketMachine
     {
      return status;
     }
-    
+    public int Empty()
+    {
+        total = 0;
+        return total;
+    }
     /**
      * Return the price of a ticket.
      */

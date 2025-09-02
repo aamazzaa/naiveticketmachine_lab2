@@ -95,3 +95,4 @@ public void setAlive(boolean status)
 
 43. Doesn't compile states that its an illegal expression but %D and %n are format specifiers.
 
+46. The empty class is a mutator
